@@ -12,7 +12,7 @@ class PageDua extends StatelessWidget {
           children: [
             Text("Page Dua"),
             ElevatedButton(onPressed: (){
-
+              Navigator.pop(context);
             }, child: Text("Kembali ke Page Satu"))
           ],
         ),
