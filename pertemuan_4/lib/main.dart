@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pertemuan_4/navigation/page_satu.dart';
 import 'package:pertemuan_4/widget/column_page.dart';
 import 'package:pertemuan_4/widget/container_page.dart';
 import 'package:pertemuan_4/widget/login_page.dart';
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ContainerPage()
+      home: PageSatu()
     );
   }
 }
